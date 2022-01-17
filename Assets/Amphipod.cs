@@ -40,7 +40,7 @@ public class Amphipod : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, I
 						private	static	readonly	ReadOnlyDictionary<Type, TypeData>	TYPE_DATA
 		= new ReadOnlyDictionary<Type, TypeData>
 		(
-			new Dictionary<Type, TypeData>()
+			new Dictionary<Type, TypeData>
 			{
 				{ Type.Amber, new TypeData { Color = Color.red, Energy = 1, Coordinate = -3 } },
 				{ Type.Bronze, new TypeData { Color = Color.green, Energy = 10, Coordinate = -1 } },
